@@ -11,6 +11,7 @@ int Second_largest(int arr[],int n){
           else if(arr[i]!=arr[largest]){
             if(res==-1){
               res = 0;
+            
             }
             else{
               if(arr[i]>arr[res]){
@@ -23,7 +24,7 @@ int Second_largest(int arr[],int n){
 }
 int main()
 {
-  cout << "Enter size of an array: " << endl;
+  cout << "Enter size of an array: ";
   int n;
   cin >> n;
   int arr[n];

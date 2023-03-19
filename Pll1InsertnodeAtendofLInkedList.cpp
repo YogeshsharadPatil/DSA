@@ -15,6 +15,7 @@ class Node
 
     if(head == NULL){
       head =n;
+      //n->next = NULL;
       return;
     }
      Node* temp = head;

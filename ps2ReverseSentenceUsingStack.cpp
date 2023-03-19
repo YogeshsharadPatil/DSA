@@ -20,7 +20,7 @@ void ReverseSentence(string s)
 }
 int main(){
   //create a stack using Stl stack<dtatype>Variable
-  string str= "Hey, Yogesh you are very hardworrkng";
+  string str= "Hey, Yogesh you are very hardworikng";
   cout<<str<<endl;
   ReverseSentence(str);
 return 0;
